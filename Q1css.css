@@ -1,6 +1,69 @@
-.imgCover {
-background-image: url(imges/1.jpg);
-background-position: center;
-background-size: cover;
+#PageCover
+    {
+        width: 100%;
+    }
+
+/*Container holding the image and the text */
+.container 
+{
+    position: relative;
+    text-align: center;
 }
 
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: -420px;
+    left: 20px;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+  }
+
+  /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: -420px;
+    right: 20px;
+    font-size: xx-large;
+    color: white;
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 1000%;
+    color: white;
+    text-align: center;
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 20px;
+list-style-type: none;
+text-align: center;
+background: black;
+}
+
+#navcontainer ul li
+ {
+      display: inline-block;
+    
+ }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: 70px;
+color: #fff;
+font-size: 18px;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+}
