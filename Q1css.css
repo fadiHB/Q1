@@ -43,7 +43,7 @@
 #navcontainer ul
 {
 margin: 0;
-padding: 20px;
+padding: 10px;
 list-style-type: none;
 text-align: center;
 background: black;
@@ -66,4 +66,9 @@ font-size: 18px;
 #navcontainer ul li a:hover
 {
 color: #fff;
+}
+
+a:hover
+{
+    background: #2e2e1f ;
 }
